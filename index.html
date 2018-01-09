@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector Game | Darrin Davis</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- External Asset Stylesheets -->
+<!-- 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<!-- jQuery 1.x -->
+	<script
+	  src="https://code.jquery.com/jquery-1.12.4.js"
+	  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+	  crossorigin="anonymous">
+	</script>
+
+<!-- 	Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	</script>
+
+
+
+
+</head>
+
+
+<body>
+
+	<!-- Instructions -->
+	<div class="main">
+
+		<h1>CrystalsCollector!</h1>
+
+		<h3>You will be given a random number at the start of the game.</h3>
+		<br>
+		<h3>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</h3>
+		<br>
+		<h3>You will win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h3>
+		<br>
+		<h3>The value of each crystal is hidden from you until you click on it.</h3>
+		<br>
+		<h3>Each time when the game starts, the game will change the value of each crystal.</h3>
+		<br>
+
+	</div>
+
+	<!-- Randon Number -->
+	<div>
+		<!-- <h3>The Computer's Random Number is: </h3> -->
+		<h2 id="computerValue"></h2>
+	</div>
+
+	<!-- Wins and Losses -->
+	<div class="crystalarea">
+
+		<h2 id="wins"></h2>
+		<h2 id="losses"></h2>
+
+	</div>
+
+	<!-- Crystal Choices -->
+	<div class="crystalarea">
+
+		<img class="crystal-image1" src="assets/images/crystal1.jpg" alt="crystal1">
+		<img class="crystal-image2" src="assets/images/crystal2.jpg" alt="crystal2">
+		<img class="crystal-image3" src="assets/images/crystal3.jpg" alt="crystal3">
+		<img class="crystal-image4" src="assets/images/crystal4.jpg" alt="crystal4">
+
+	</div>
+
+	<!-- Current Score -->
+	<div>
+		<h3>Your Current Score: </h3>
+		<h2 id="crystalCounter"></h2>
+	</div>
+
+<!-- 	Java Code from game.js -->
+<script src="assets/javascript/game.js"></script>
+
+</body>

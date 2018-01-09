@@ -1,0 +1,41 @@
+
+
+    .crystal-image1 {
+      width: 200px;
+      height: 150px;
+      float: left;
+    }
+
+
+    .crystal-image2 {
+      width: 200px;
+      height: 150px;
+      float: left;
+    }
+
+
+    .crystal-image3 {
+      width: 200px;
+      height: 150px;
+      float: left;
+    }
+
+
+    .crystal-image4 {
+      width: 200px;
+      height: 150px;
+      float: left;
+    }
+
+
+    .main {
+    	width: 100%;
+    	height: auto;
+    	align-content: left;
+    	border-style: solid;
+    }
+
+    .crystalarea {
+    	border: 1px solid #dddddd;
+    	width: auto;
+    }
