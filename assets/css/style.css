@@ -29,7 +29,7 @@
 
 
     .main {
-    	width: 100%;
+    	width: auto;
     	height: auto;
     	align-content: left;
     	border-style: solid;
@@ -39,8 +39,19 @@
     .crystalarea {
     	border: 1px solid #dddddd;
     	width: auto;
+    	background-color: EAE9D9;
     }
 
-h3 {
-	font-size: 16px;
+.blank {
+	width-auto;
+	height: 20px;
+	clear: both;
 }
+
+	h3 {
+		font-size: 16px;
+	}
+
+	div {
+		margin-left: 30px;
+	}

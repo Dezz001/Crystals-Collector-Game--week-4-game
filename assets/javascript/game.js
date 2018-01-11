@@ -152,6 +152,8 @@ $(".crystal-image2").on("click", function() {
 	var lossesP = document.getElementById("losses");
 	lossesP.innerHTML = "Losses: " + losses;
 
+
+
   });
 
 
